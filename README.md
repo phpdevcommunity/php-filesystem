@@ -13,10 +13,6 @@ composer require phpdevcommunity/php-filesystem
 
 - PHP version 7.4 or higher
 
-Pour ajouter une table des matières en haut de votre README qui permet de naviguer facilement entre les chapitres, vous pouvez utiliser des liens ancrés Markdown. Voici un exemple de comment organiser cette liste avec les classes que vous avez mentionnées :
-
----
-
 ## Table of Contents
 
 1. [TempFile](#TempFile)
