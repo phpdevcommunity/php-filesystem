@@ -1,0 +1,24 @@
+{
+  "name": "phpdevcommunity/php-filesystem",
+  "description": "A lightweight PHP library for file system operations, including temporary file creation, file manipulation, and metadata handling using SPL.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "F. Michel",
+      "homepage": "https://www.phpdevcommunity.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpDevCommunity\\FileSystem\\": "src",
+      "Test\\PhpDevCommunity\\FileSystem\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4"
+  }
+}
