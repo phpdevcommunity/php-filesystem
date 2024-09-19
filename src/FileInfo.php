@@ -2,6 +2,8 @@
 
 namespace PhpDevCommunity\FileSystem;
 
+use PhpDevCommunity\FileSystem\Mime\MimeType;
+
 final class FileInfo
 {
     private \SplFileInfo $fileInfo;
@@ -87,6 +89,11 @@ final class FileInfo
     public function getExtension(): string
     {
         return $this->fileInfo->getExtension();
+    }
+
+    public function getExtensionByMimeType():?string
+    {
+        return MimeType::getExtensionByMimeType($this->getMimeType());
     }
 
     public function toBase64(): string
